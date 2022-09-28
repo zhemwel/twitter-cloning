@@ -8,7 +8,7 @@ function Widgets() {
       {/* Search */}
       <div className="mt-2 flex items-center space-x-2 rounded-full bg-gray-100 p-3">
         <SearchIcon className="h-5 w-5 text-gray-400" />
-        <input 
+        <input
           type="text"
           placeholder="Search Twitter"
           className="flex-1 bg-transparent outline-none"
@@ -16,11 +16,11 @@ function Widgets() {
       </div>
 
       {/* Twitter Embed */}
-      <TwitterTimelineEmbed 
+      {/* <TwitterTimelineEmbed
         sourceType="profile"
         screenName="mas_den25"
         options={{height: 400}}
-      />
+      /> */}
     </div>
   )
 }

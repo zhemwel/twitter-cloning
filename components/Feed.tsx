@@ -23,8 +23,6 @@ function Feed({ tweets: tweetsProp }: Props) {
       id: refreshToast,
     })
   }
-
-  console.log(tweets);
   
   return (
     <div className="col-span-7 max-h-screen overflow-scroll border-x scrollbar-hide lg:col-span-5">
